@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rivera | Creative Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Alex.dev</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <span class="badge">🚀 Available for new projects</span>
+            <h1>Crafting Digital Experiences with Code & Design</h1>
+            <p>Hi, I'm Alex. A frontend engineer and UI designer dedicated to building fast, accessible, and elegant web applications.</p>
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Some of the recent things I have designed and built</p>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <div>
+                        <h3>⚡ DevPulse Analytics</h3>
+                        <p class="card-desc">Real-time developer telemetry and workflow monitoring dashboard with sub-second queries.</p>
+                    </div>
+                    <div>
+                        <div class="tag-list">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                        <a href="#" class="btn btn-outline card-btn">Explore Demo</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>🎨 HyperCanvas Studio</h3>
+                        <p class="card-desc">Interactive browser-based vector design suite featuring collaborative multiplayer editing.</p>
+                    </div>
+                    <div>
+                        <div class="tag-list">
+                            <span class="tag">WebAssembly</span>
+                            <span class="tag">WebGL</span>
+                            <span class="tag">WebSockets</span>
+                        </div>
+                        <a href="#" class="btn btn-outline card-btn">Explore Demo</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>🌿 EcoFlow Tracker</h3>
+                        <p class="card-desc">A carbon footprint calculation platform connecting enterprise supply chains with verified offsets.</p>
+                    </div>
+                    <div>
+                        <div class="tag-list">
+                            <span class="tag">Vue 3</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                        <a href="#" class="btn btn-outline card-btn">Explore Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-header">
+                <h2>Technical Toolkit</h2>
+                <p>Technologies and tools I work with daily</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-item">HTML5 / CSS3</div>
+                <div class="skill-item">JavaScript (ES6+)</div>
+                <div class="skill-item">React / Next.js</div>
+                <div class="skill-item">TypeScript</div>
+                <div class="skill-item">Tailwind CSS</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Git & GitHub</div>
+                <div class="skill-item">UI/UX Design</div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-box" id="contact">
+            <h2>Let's build something remarkable</h2>
+            <p class="contact-sub">Have an idea or opportunity? Send me a quick message.</p>
+            
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required><br>
+                <input type="email" id="email" placeholder="Your Email Address" required><br>
+                <textarea id="message" rows="4" placeholder="How can I help you?" required></textarea><br>
+                <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Alex Rivera. Built with clean HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
